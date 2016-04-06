@@ -1,5 +1,5 @@
 observer:
-  image: hax10r88/openbazaar-server
+  build: .
   ports:
     - "18466:18466"
     - "18469:18469"
