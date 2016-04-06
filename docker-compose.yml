@@ -1,6 +1,6 @@
 version: '1'
 services:
-  server:
-    build: .
+  observer:
+    image: hax10r88/openbazaar-server
     ports:
     - "18466-18470:18466-18470"
