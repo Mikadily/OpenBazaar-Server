@@ -3,4 +3,6 @@ services:
   observer:
     image: hax10r88/openbazaar-server
     ports:
-    - "18466-18470:18466-18470"
+    - "18466:18466"
+    - "18469:18469"
+    - "18470:18470"
